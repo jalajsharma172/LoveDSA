@@ -13,7 +13,7 @@ public class Main {
 
         public static int calli(int[] nums) {
             HashSet<Integer> elements = new HashSet<>();
-            int max = -1;
+            int max = -1 ;
             for (int a = 0; a < nums.length; a++) {
                 if (elements.contains(-nums[a])) {
                     if (nums[a]>0 & nums[a]>max){
