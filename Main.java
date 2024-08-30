@@ -18,6 +18,7 @@ public class Main {
                 if (elements.contains(-nums[a])) {
                     if (nums[a]>0 & nums[a]>max){
                         max=nums[a];
+                        System.out.println("hi");
                     }
                     else if (nums[a]<0 & -nums[a]>max){
                         max=-nums[a];
